@@ -9,7 +9,7 @@ const sublinks = [
       { label: 'connect', icon: <FaCoffee />, url: '/products' },
     ],
   },
-  {
+  { 
     page: 'developers',
     links: [
       { label: 'plugins', icon: <FaBook />, url: '/products' },

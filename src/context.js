@@ -9,7 +9,7 @@ export const AppProvider = ({children}) => {
     const [location, setLocation] = useState({});
     const [page, setPage] = useState({page: '', links: []});
 
-    const openSidebar = () => {
+    const openSidebar = () => { 
         setIsSidebarOpen(true);
     }
     const closeSidebar = () => {
